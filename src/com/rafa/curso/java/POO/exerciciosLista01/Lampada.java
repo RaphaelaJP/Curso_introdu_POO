@@ -14,5 +14,13 @@ public class Lampada {
     int garantiaMeses;
     String [] tipos;
     
+    boolean ligada;
     
+    void ligar(){
+        ligada = true;
+    }
+    
+    void desligar (){
+        ligada = false;
+    }
 }

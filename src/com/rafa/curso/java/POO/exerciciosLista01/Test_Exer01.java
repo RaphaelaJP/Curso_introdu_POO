@@ -27,6 +27,15 @@ public class Test_Exer01 {
         System.out.println(lampada.potencia);
         System.out.println(lampada.tensao);
 
+        lampada.ligar();
+        if (lampada.ligada){
+        System.out.println("A lampada está ligada");
+        
+        } else {
+        System.out.println("A lampada está desligada ");
+    
+        }
+        
         System.out.println(lampada.tipos[0]);
 
     }
